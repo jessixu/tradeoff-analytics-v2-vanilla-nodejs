@@ -1,0 +1,34 @@
+
+
+<%- include('header') %>
+<div class="ui grid">
+  <div class="four wide column"></div>
+  <div class="eight wide column">
+    <form class="ui form segment" method="post" >
+      <div class="field required">
+        <label>Length</label>
+        <input placeholder="Length" type="number" name="length">
+      </div>
+      <div class="field required">
+        <label>Width</label>
+        <input placeholder="Width" type="number" name="width">
+      </div>
+      <div class="field required">
+        <label>Thickness</label>
+        <input placeholder="Thickness" type="number" name="thickness">
+      </div>
+      <div class="field required">
+        <label>Product Type</label>
+        <select class="ui compact selection dropdown" name="type">
+          <option value="Gasket">Gasket</option>
+          <option value="others">others</option>
+          <option value="no">no</option>
+        </select>
+      </div>
+     
+      <input type="submit" class="ui button fluid" value="submit">
+    </div>
+  </form>
+</div>
+
+<%- include('footer') %>

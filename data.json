@@ -1,0 +1,3763 @@
+{
+  "subject": "Purchase Part",
+  "columns": [
+    {
+     "key": "Length",
+      "type": "numeric",
+      "goal": "min",
+      "full_name": "Length"
+     
+    },
+    {
+      "key": "Width",
+      "type": "numeric",
+      "goal": "min",
+      "full_name": "Width"
+    },
+    {
+       "key": "Thickness",
+      "type": "numeric",
+      "goal": "min",
+      "full_name": "Thickness"
+    },
+    {
+     "key": "Purchasing Price",
+      "type": "numeric",
+      "goal": "min",
+      "full_name": "Price"
+    },
+     {
+      "key": "Product Type",
+      "type": "categorical",
+      "full_name": "Product Type",
+      "range": [
+        "Gasket",
+        "Screw",
+        "Stud",
+        "Pin"
+      ],
+      "preference": [
+        "Gasket",
+        "Screw",
+        "Stud",
+        "Pin"
+      ]
+    },
+     {
+      "key": "Supplier",
+      "type": "categorical",
+      "full_name": "Supplier",
+      "range": [
+        "SHILIGAO",
+        "Laird",
+        "Foxconn","Karrie","MUELLER","SCHLEGEL"
+      ]
+     
+    },
+    {
+     "key": "Annual Volume",
+      "type": "numeric",
+      "goal": "min",
+      "full_name": "Annual Volume"
+    }
+  ],
+  "options": [
+{
+  "key": "0",
+  "name": "34.55E23.001",
+  "values": {
+    "Length": 196,
+    "Width": 3.9,
+    "Thickness": 2,
+    "Annual Volume": 6000,
+    "Price": 0.212,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "1",
+  "name": "34.55E24.001",
+  "values": {
+    "Length": 208,
+    "Width": 3.9,
+    "Thickness": 2.3,
+    "Annual Volume": 6000,
+    "Price": 0.282,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "2",
+  "name": "34.55E25.001",
+  "values": {
+    "Length": 10,
+    "Width": 3.9,
+    "Thickness": 2.3,
+    "Annual Volume": 6000,
+    "Price": 0.022,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "3",
+  "name": "34.55E26.001",
+  "values": {
+    "Length": 26.7,
+    "Width": 3.8,
+    "Thickness": 1,
+    "Annual Volume": 6000,
+    "Price": 0.026,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "4",
+  "name": "34.55E27.001",
+  "values": {
+    "Length": 63.9,
+    "Width": 2,
+    "Thickness": 1,
+    "Annual Volume": 6000,
+    "Price": 0.054,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "5",
+  "name": "34.55E28.001",
+  "values": {
+    "Length": 37.5,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.067,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "6",
+  "name": "34.55E43.001",
+  "values": {
+    "Length": 181,
+    "Width": 10.9,
+    "Thickness": 3.2,
+    "Annual Volume": 6000,
+    "Price": 0.46,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "7",
+  "name": "34.55E54.001",
+  "values": {
+    "Length": 205,
+    "Width": 6,
+    "Thickness": 4,
+    "Annual Volume": 6000,
+    "Price": 0.643,
+    "Product Type": "Gasket",
+    "Supplier": "SHILIGAO"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "8",
+  "name": "34.55X19.001",
+  "values": {
+    "Length": 82,
+    "Width": 3.8,
+    "Thickness": 1,
+    "Annual Volume": 24000,
+    "Price": 0.055,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "9",
+  "name": "34.55X20.001",
+  "values": {
+    "Length": 402.5,
+    "Width": 4,
+    "Thickness": 1.5,
+    "Annual Volume": 24000,
+    "Price": 0.322,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "10",
+  "name": "34.55X51.001",
+  "values": {
+    "Length": 142.2,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 24000,
+    "Price": 0.178,
+    "Product Type": "Gasket",
+    "Supplier": "SHILIGAO"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "11",
+  "name": "46K4857",
+  "values": {
+    "Length": 122,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.26,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "12",
+  "name": "46K4858",
+  "values": {
+    "Length": 20,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.049,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "13",
+  "name": "46K4859",
+  "values": {
+    "Length": 28,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.062,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "14",
+  "name": "46K4861",
+  "values": {
+    "Length": 16,
+    "Width": 12,
+    "Thickness": 5,
+    "Annual Volume": 6000,
+    "Price": 0.049,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "15",
+  "name": "46K4862",
+  "values": {
+    "Length": 38,
+    "Width": 12,
+    "Thickness": 5,
+    "Annual Volume": 6000,
+    "Price": 0.087,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "16",
+  "name": "46K4863",
+  "values": {
+    "Length": 60,
+    "Width": 35,
+    "Thickness": 12,
+    "Annual Volume": 6000,
+    "Price": 0.124,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "17",
+  "name": "46K5452",
+  "values": {
+    "Length": 413,
+    "Width": 11.3,
+    "Thickness": 2.7,
+    "Annual Volume": 6000,
+    "Price": 0.684,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "18",
+  "name": "46K5794",
+  "values": {
+    "Length": 80,
+    "Width": 12.7,
+    "Thickness": 3.8,
+    "Annual Volume": 6000,
+    "Price": 0.185,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "19",
+  "name": "46K5796",
+  "values": {
+    "Length": 48,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 6000,
+    "Price": 0.099,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "20",
+  "name": "46K6324",
+  "values": {
+    "Length": 140,
+    "Width": 6,
+    "Thickness": 3.3,
+    "Annual Volume": 6000,
+    "Price": 0.227,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "21",
+  "name": "74Y6700",
+  "values": {
+    "Length": 391.5,
+    "Width": 6,
+    "Thickness": 3.3,
+    "Annual Volume": 6000,
+    "Price": 0.683,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "22",
+  "name": "74Y7106",
+  "values": {
+    "Length": 130.2,
+    "Width": 12.7,
+    "Thickness": 3.8,
+    "Annual Volume": 6000,
+    "Price": 0.321,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "23",
+  "name": "74Y9446",
+  "values": {
+    "Length": 57,
+    "Width": 10,
+    "Thickness": 3.8,
+    "Annual Volume": 6000,
+    "Price": 0.134,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "24",
+  "name": "90Y4900-032",
+  "values": {
+    "Length": 225,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 12000,
+    "Price": 0.447,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "25",
+  "name": "90Y4900-033",
+  "values": {
+    "Length": 167,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 12000,
+    "Price": 0.335,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "26",
+  "name": "90Y5887-002",
+  "values": {
+    "Length": 60,
+    "Width": 6.4,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.066,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "27",
+  "name": "69Y5272-016",
+  "values": {
+    "Length": 114.13,
+    "Width": 4,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.072,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "28",
+  "name": "69Y5272-018",
+  "values": {
+    "Length": 108,
+    "Width": 6.8,
+    "Thickness": 0.5,
+    "Annual Volume": 200000,
+    "Price": 0.067,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "29",
+  "name": "69Y5272-019",
+  "values": {
+    "Length": 108,
+    "Width": 3.2,
+    "Thickness": 0.5,
+    "Annual Volume": 200000,
+    "Price": 0.043,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "30",
+  "name": "90Y5863-005",
+  "values": {
+    "Length": 24,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.028,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "31",
+  "name": "90Y5885-002",
+  "values": {
+    "Length": 664,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.544,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "32",
+  "name": "90Y5885-003",
+  "values": {
+    "Length": 630,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.538,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "33",
+  "name": "46K3594",
+  "values": {
+    "Length": 439.4,
+    "Width": 3.8,
+    "Thickness": 1.5,
+    "Annual Volume": 2000,
+    "Price": 0.618,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "34",
+  "name": "46K3586",
+  "values": {
+    "Length": 50,
+    "Width": 3.8,
+    "Thickness": 1.5,
+    "Annual Volume": 2000,
+    "Price": 0.074,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "35",
+  "name": "90Y6576",
+  "values": {
+    "Length": 100,
+    "Width": 5,
+    "Thickness": 2.4,
+    "Annual Volume": 12000,
+    "Price": 0.142,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "36",
+  "name": "90Y6577",
+  "values": {
+    "Length": 55,
+    "Width": 5,
+    "Thickness": 2.4,
+    "Annual Volume": 12000,
+    "Price": 0.078,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "37",
+  "name": "41U8102",
+  "values": {
+    "Length": 146.5,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.399,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "38",
+  "name": "41U8381",
+  "values": {
+    "Length": 154.35,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.411,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "39",
+  "name": "41T8350<br>(Old P/N: 441U8097)",
+  "values": {
+    "Length": 33.73,
+    "Width": 4,
+    "Thickness": 0.5,
+    "Annual Volume": 2000,
+    "Price": 0.152,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "40",
+  "name": "41U8103",
+  "values": {
+    "Length": 34.5,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.103,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "41",
+  "name": "41T8351<br>(Old P/N: 41U8096)",
+  "values": {
+    "Length": 63.5,
+    "Width": 4,
+    "Thickness": 0.5,
+    "Annual Volume": 2000,
+    "Price": 0.269,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "42",
+  "name": "59Y4724",
+  "values": {
+    "Length": 22,
+    "Width": 4,
+    "Thickness": 1.5,
+    "Annual Volume": 45000,
+    "Price": 0.026,
+    "Product Type": "GASKET",
+    "Supplier": "Karrie"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "43",
+  "name": "46D3094",
+  "values": {
+    "Length": 146,
+    "Width": 4,
+    "Thickness": 1.5,
+    "Annual Volume": 45000,
+    "Price": 0.18,
+    "Product Type": "Gasket",
+    "Supplier": "Karrie"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "44",
+  "name": "59Y4588",
+  "values": {
+    "Length": 113,
+    "Width": 12.7,
+    "Thickness": 3.5,
+    "Annual Volume": 45000,
+    "Price": 0.173,
+    "Product Type": "Gasket",
+    "Supplier": "Karrie"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "45",
+  "name": "00E5656",
+  "values": {
+    "Length": 366,
+    "Width": 15,
+    "Thickness": 0.17,
+    "Annual Volume": 7500,
+    "Price": 0.185,
+    "Product Type": "Gasket",
+    "Supplier": "MUELLER"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "46",
+  "name": "46D2942",
+  "values": {
+    "Length": 149,
+    "Width": 21,
+    "Thickness": 2,
+    "Annual Volume": 45000,
+    "Price": 0.208,
+    "Product Type": "Gasket",
+    "Supplier": "Karrie"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "47",
+  "name": "00E6390",
+  "values": {
+    "Length": 431,
+    "Width": 127,
+    "Thickness": 3.8,
+    "Annual Volume": 7500,
+    "Price": 1.975,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "48",
+  "name": "00E6582",
+  "values": {
+    "Length": 394,
+    "Width": 66,
+    "Thickness": 0.15,
+    "Annual Volume": 7500,
+    "Price": 0.766,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "49",
+  "name": "59Y4737",
+  "values": {
+    "Length": 277.95,
+    "Width": 7,
+    "Thickness": 1.5,
+    "Annual Volume": 45000,
+    "Price": 0.28,
+    "Product Type": "GASKET",
+    "Supplier": "Karrie"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "50",
+  "name": "46D3095",
+  "values": {
+    "Length": 22,
+    "Width": 7,
+    "Thickness": 1.5,
+    "Annual Volume": 45000,
+    "Price": 0.016,
+    "Product Type": "GASKET",
+    "Supplier": "Karrie"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "51",
+  "name": "46D3212",
+  "values": {
+    "Length": 165,
+    "Width": 7,
+    "Thickness": 1.5,
+    "Annual Volume": 45000,
+    "Price": 0.178,
+    "Product Type": "GASKET",
+    "Supplier": "Karrie"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "52",
+  "name": "59Y4736",
+  "values": {
+    "Length": 158,
+    "Width": 7,
+    "Thickness": 1.5,
+    "Annual Volume": 45000,
+    "Price": 0.169,
+    "Product Type": "GASKET",
+    "Supplier": "Karrie"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "53",
+  "name": "46D3205",
+  "values": {
+    "Length": 15.3,
+    "Width": 7,
+    "Thickness": 1.5,
+    "Annual Volume": 45000,
+    "Price": 0.023,
+    "Product Type": "GASKET",
+    "Supplier": "Karrie"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "54",
+  "name": "59Y4735",
+  "values": {
+    "Length": 122.15,
+    "Width": 7,
+    "Thickness": 1.5,
+    "Annual Volume": 45000,
+    "Price": 0.131,
+    "Product Type": "GASKET",
+    "Supplier": "Karrie"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "55",
+  "name": "59Y4741",
+  "values": {
+    "Length": 150,
+    "Width": 10,
+    "Thickness": 1.5,
+    "Annual Volume": 45000,
+    "Price": 0.32,
+    "Product Type": "GASKET",
+    "Supplier": "Karrie"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "56",
+  "name": "90Y5887-002",
+  "values": {
+    "Length": 60,
+    "Width": 6.4,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.066,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "57",
+  "name": "69Y5272-016",
+  "values": {
+    "Length": 114.13,
+    "Width": 4,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.072,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "58",
+  "name": "90Y5863-004",
+  "values": {
+    "Length": 120,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.104,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "59",
+  "name": "90Y4900-032",
+  "values": {
+    "Length": 225,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 12000,
+    "Price": 0.447,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "60",
+  "name": "90Y4900-033",
+  "values": {
+    "Length": 167,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 12000,
+    "Price": 0.335,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "61",
+  "name": "AAAA001",
+  "values": {
+    "Length": 108,
+    "Width": 1.5,
+    "Thickness": 0.5,
+    "Annual Volume": 200000,
+    "Price": 0.021,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "62",
+  "name": "AAAA002",
+  "values": {
+    "Length": 108,
+    "Width": 2,
+    "Thickness": 0.5,
+    "Annual Volume": 200000,
+    "Price": 0.028,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "63",
+  "name": "AAAA003",
+  "values": {
+    "Length": 108,
+    "Width": 2.5,
+    "Thickness": 0.5,
+    "Annual Volume": 200000,
+    "Price": 0.034,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "64",
+  "name": "AAAA004",
+  "values": {
+    "Length": 108,
+    "Width": 3,
+    "Thickness": 0.5,
+    "Annual Volume": 200000,
+    "Price": 0.037,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "65",
+  "name": "AAAA005",
+  "values": {
+    "Length": 108,
+    "Width": 3.5,
+    "Thickness": 0.5,
+    "Annual Volume": 200000,
+    "Price": 0.051,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "66",
+  "name": "AAAA006",
+  "values": {
+    "Length": 108,
+    "Width": 4,
+    "Thickness": 0.5,
+    "Annual Volume": 200000,
+    "Price": 0.058,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "67",
+  "name": "AAAA007",
+  "values": {
+    "Length": 108,
+    "Width": 4.5,
+    "Thickness": 0.5,
+    "Annual Volume": 200000,
+    "Price": 0.065,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "68",
+  "name": "AAAA008",
+  "values": {
+    "Length": 10,
+    "Width": 4,
+    "Thickness": 0.5,
+    "Annual Volume": 2000,
+    "Price": 0.068,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "69",
+  "name": "AAAA009",
+  "values": {
+    "Length": 20,
+    "Width": 4,
+    "Thickness": 0.5,
+    "Annual Volume": 2000,
+    "Price": 0.108,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "70",
+  "name": "AAAA010",
+  "values": {
+    "Length": 30,
+    "Width": 4,
+    "Thickness": 0.5,
+    "Annual Volume": 2000,
+    "Price": 0.149,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "71",
+  "name": "AAAA011",
+  "values": {
+    "Length": 40,
+    "Width": 4,
+    "Thickness": 0.5,
+    "Annual Volume": 2000,
+    "Price": 0.187,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "72",
+  "name": "AAAA012",
+  "values": {
+    "Length": 50,
+    "Width": 4,
+    "Thickness": 0.5,
+    "Annual Volume": 2000,
+    "Price": 0.217,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "73",
+  "name": "AAAA013",
+  "values": {
+    "Length": 60,
+    "Width": 4,
+    "Thickness": 0.5,
+    "Annual Volume": 2000,
+    "Price": 0.259,
+    "Product Type": "Gasket",
+    "Supplier": "SCHLEGEL"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "74",
+  "name": "AAAA014",
+  "values": {
+    "Length": 10,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.014,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "75",
+  "name": "AAAA015",
+  "values": {
+    "Length": 20,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.023,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "76",
+  "name": "AAAA016",
+  "values": {
+    "Length": 30,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.031,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "77",
+  "name": "AAAA017",
+  "values": {
+    "Length": 40,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.038,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "78",
+  "name": "AAAA018",
+  "values": {
+    "Length": 50,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.046,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "79",
+  "name": "AAAA019",
+  "values": {
+    "Length": 60,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.053,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "80",
+  "name": "AAAA020",
+  "values": {
+    "Length": 70,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.063,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "81",
+  "name": "AAAA021",
+  "values": {
+    "Length": 80,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.073,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "82",
+  "name": "AAAA022",
+  "values": {
+    "Length": 90,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.083,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "83",
+  "name": "AAAA023",
+  "values": {
+    "Length": 100,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.093,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "84",
+  "name": "AAAA024",
+  "values": {
+    "Length": 110,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.099,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "85",
+  "name": "AAAA025",
+  "values": {
+    "Length": 122,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.106,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "86",
+  "name": "AAAA026",
+  "values": {
+    "Length": 130,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.116,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "87",
+  "name": "AAAA027",
+  "values": {
+    "Length": 140,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.126,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "88",
+  "name": "AAAA028",
+  "values": {
+    "Length": 150,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.136,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "89",
+  "name": "AAAA029",
+  "values": {
+    "Length": 160,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.146,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "90",
+  "name": "AAAA030",
+  "values": {
+    "Length": 170,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.156,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "91",
+  "name": "AAAA031",
+  "values": {
+    "Length": 180,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.166,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "92",
+  "name": "AAAA032",
+  "values": {
+    "Length": 190,
+    "Width": 5,
+    "Thickness": 1,
+    "Annual Volume": 200000,
+    "Price": 0.176,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "93",
+  "name": "AAAA033",
+  "values": {
+    "Length": 10,
+    "Width": 3.8,
+    "Thickness": 1,
+    "Annual Volume": 6000,
+    "Price": 0.012,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "94",
+  "name": "AAAA034",
+  "values": {
+    "Length": 20,
+    "Width": 3.8,
+    "Thickness": 1,
+    "Annual Volume": 6000,
+    "Price": 0.022,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "95",
+  "name": "AAAA035",
+  "values": {
+    "Length": 30,
+    "Width": 3.8,
+    "Thickness": 1,
+    "Annual Volume": 6000,
+    "Price": 0.03,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "96",
+  "name": "AAAA036",
+  "values": {
+    "Length": 40,
+    "Width": 3.8,
+    "Thickness": 1,
+    "Annual Volume": 6000,
+    "Price": 0.027,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "97",
+  "name": "AAAA037",
+  "values": {
+    "Length": 50,
+    "Width": 3.8,
+    "Thickness": 1,
+    "Annual Volume": 6000,
+    "Price": 0.029,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "98",
+  "name": "AAAA038",
+  "values": {
+    "Length": 60,
+    "Width": 3.8,
+    "Thickness": 1,
+    "Annual Volume": 6000,
+    "Price": 0.032,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "99",
+  "name": "AAAA039",
+  "values": {
+    "Length": 70,
+    "Width": 3.8,
+    "Thickness": 1,
+    "Annual Volume": 6000,
+    "Price": 0.042,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "100",
+  "name": "AAAA040",
+  "values": {
+    "Length": 80,
+    "Width": 3.8,
+    "Thickness": 1,
+    "Annual Volume": 6000,
+    "Price": 0.055,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "101",
+  "name": "AAAA042",
+  "values": {
+    "Length": 10,
+    "Width": 1,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.009,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "102",
+  "name": "AAAA043",
+  "values": {
+    "Length": 20,
+    "Width": 2,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.017,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "103",
+  "name": "AAAA044",
+  "values": {
+    "Length": 30,
+    "Width": 3,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.015,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "104",
+  "name": "AAAA045",
+  "values": {
+    "Length": 110,
+    "Width": 4,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.07,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "105",
+  "name": "AAAA046",
+  "values": {
+    "Length": 40,
+    "Width": 5,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.033,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "106",
+  "name": "AAAA047",
+  "values": {
+    "Length": 60,
+    "Width": 6,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.066,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "107",
+  "name": "AAAA048",
+  "values": {
+    "Length": 50,
+    "Width": 7,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.035,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "108",
+  "name": "AAAA049",
+  "values": {
+    "Length": 70,
+    "Width": 8,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.04,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "109",
+  "name": "AAAA050",
+  "values": {
+    "Length": 80,
+    "Width": 9,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.048,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "110",
+  "name": "AAAA051",
+  "values": {
+    "Length": 90,
+    "Width": 10,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.058,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "111",
+  "name": "AAAA052",
+  "values": {
+    "Length": 100,
+    "Width": 11,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.068,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "112",
+  "name": "AAAA053",
+  "values": {
+    "Length": 120,
+    "Width": 12,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.078,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "113",
+  "name": "AAAA054",
+  "values": {
+    "Length": 130,
+    "Width": 13,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.088,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "114",
+  "name": "AAAA055",
+  "values": {
+    "Length": 140,
+    "Width": 14,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.098,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "115",
+  "name": "AAAA056",
+  "values": {
+    "Length": 150,
+    "Width": 15,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.108,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "116",
+  "name": "AAAA057",
+  "values": {
+    "Length": 160,
+    "Width": 16,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.118,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "117",
+  "name": "AAAA058",
+  "values": {
+    "Length": 170,
+    "Width": 17,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.128,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "118",
+  "name": "AAAA059",
+  "values": {
+    "Length": 180,
+    "Width": 18,
+    "Thickness": 1.5,
+    "Annual Volume": 200000,
+    "Price": 0.138,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "119",
+  "name": "AAAA060",
+  "values": {
+    "Length": 10,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 6000,
+    "Price": 0.024,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "120",
+  "name": "AAAA061",
+  "values": {
+    "Length": 20,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 6000,
+    "Price": 0.048,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "121",
+  "name": "AAAA062",
+  "values": {
+    "Length": 30,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 6000,
+    "Price": 0.064,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "122",
+  "name": "AAAA063",
+  "values": {
+    "Length": 40,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 6000,
+    "Price": 0.096,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "123",
+  "name": "AAAA064",
+  "values": {
+    "Length": 50,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 6000,
+    "Price": 0.102,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "124",
+  "name": "AAAA065",
+  "values": {
+    "Length": 60,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 6000,
+    "Price": 0.109,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "125",
+  "name": "AAAA066",
+  "values": {
+    "Length": 70,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 6000,
+    "Price": 0.145,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "126",
+  "name": "AAAA067",
+  "values": {
+    "Length": 80,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 6000,
+    "Price": 0.18,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "127",
+  "name": "AAAA068",
+  "values": {
+    "Length": 90,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 6000,
+    "Price": 0.201,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "128",
+  "name": "AAAA069",
+  "values": {
+    "Length": 100,
+    "Width": 10,
+    "Thickness": 2,
+    "Annual Volume": 6000,
+    "Price": 0.225,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "129",
+  "name": "AAAA070",
+  "values": {
+    "Length": 10,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.23,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "130",
+  "name": "AAAA071",
+  "values": {
+    "Length": 20,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.24,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "131",
+  "name": "AAAA072",
+  "values": {
+    "Length": 30,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.25,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "132",
+  "name": "AAAA073",
+  "values": {
+    "Length": 40,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.26,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "133",
+  "name": "AAAA074",
+  "values": {
+    "Length": 50,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.27,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "134",
+  "name": "AAAA075",
+  "values": {
+    "Length": 60,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.28,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "135",
+  "name": "AAAA076",
+  "values": {
+    "Length": 70,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.29,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "136",
+  "name": "AAAA077",
+  "values": {
+    "Length": 80,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.3,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "137",
+  "name": "AAAA078",
+  "values": {
+    "Length": 90,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.31,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "138",
+  "name": "AAAA079",
+  "values": {
+    "Length": 100,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.32,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "139",
+  "name": "AAAA080",
+  "values": {
+    "Length": 110,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.33,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "140",
+  "name": "AAAA081",
+  "values": {
+    "Length": 120,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.34,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "141",
+  "name": "AAAA082",
+  "values": {
+    "Length": 130,
+    "Width": 8,
+    "Thickness": 2,
+    "Annual Volume": 2000,
+    "Price": 0.37,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "142",
+  "name": "AAAA083",
+  "values": {
+    "Length": 10,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.025,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "143",
+  "name": "AAAA084",
+  "values": {
+    "Length": 30,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.064,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "144",
+  "name": "AAAA085",
+  "values": {
+    "Length": 40,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.074,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "145",
+  "name": "AAAA086",
+  "values": {
+    "Length": 50,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.084,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "146",
+  "name": "AAAA087",
+  "values": {
+    "Length": 60,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.094,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "147",
+  "name": "AAAA088",
+  "values": {
+    "Length": 70,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.104,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "148",
+  "name": "AAAA089",
+  "values": {
+    "Length": 80,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.114,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "149",
+  "name": "AAAA090",
+  "values": {
+    "Length": 90,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.124,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "150",
+  "name": "AAAA091",
+  "values": {
+    "Length": 100,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.134,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "151",
+  "name": "AAAA092",
+  "values": {
+    "Length": 110,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.144,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "152",
+  "name": "AAAA093",
+  "values": {
+    "Length": 120,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.154,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "153",
+  "name": "AAAA094",
+  "values": {
+    "Length": 130,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.164,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "154",
+  "name": "AAAA095",
+  "values": {
+    "Length": 140,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.174,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "155",
+  "name": "AAAA096",
+  "values": {
+    "Length": 150,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.185,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "156",
+  "name": "AAAA097",
+  "values": {
+    "Length": 160,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.194,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "157",
+  "name": "AAAA098",
+  "values": {
+    "Length": 170,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.204,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "158",
+  "name": "AAAA099",
+  "values": {
+    "Length": 180,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.214,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "159",
+  "name": "AAAA100",
+  "values": {
+    "Length": 190,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.224,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "160",
+  "name": "AAAA101",
+  "values": {
+    "Length": 200,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.234,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "161",
+  "name": "AAAA102",
+  "values": {
+    "Length": 210,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.244,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "162",
+  "name": "AAAA103",
+  "values": {
+    "Length": 220,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.254,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "163",
+  "name": "AAAA104",
+  "values": {
+    "Length": 230,
+    "Width": 12,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.264,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "164",
+  "name": "AAAA105",
+  "values": {
+    "Length": 10,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.038,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "165",
+  "name": "AAAA106",
+  "values": {
+    "Length": 20,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.048,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "166",
+  "name": "AAAA107",
+  "values": {
+    "Length": 30,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.058,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "167",
+  "name": "AAAA108",
+  "values": {
+    "Length": 40,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.068,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "168",
+  "name": "AAAA109",
+  "values": {
+    "Length": 50,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.078,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "169",
+  "name": "AAAA110",
+  "values": {
+    "Length": 60,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.088,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "170",
+  "name": "AAAA111",
+  "values": {
+    "Length": 70,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.098,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "171",
+  "name": "AAAA112",
+  "values": {
+    "Length": 80,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.118,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "172",
+  "name": "AAAA113",
+  "values": {
+    "Length": 90,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.128,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "173",
+  "name": "AAAA114",
+  "values": {
+    "Length": 100,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.138,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "174",
+  "name": "AAAA115",
+  "values": {
+    "Length": 110,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.148,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "175",
+  "name": "AAAA116",
+  "values": {
+    "Length": 120,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.158,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "176",
+  "name": "AAAA117",
+  "values": {
+    "Length": 130,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.168,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "177",
+  "name": "AAAA118",
+  "values": {
+    "Length": 140,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.178,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "178",
+  "name": "AAAA119",
+  "values": {
+    "Length": 150,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.188,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "179",
+  "name": "AAAA120",
+  "values": {
+    "Length": 160,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.198,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "180",
+  "name": "AAAA121",
+  "values": {
+    "Length": 170,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.208,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "181",
+  "name": "AAAA122",
+  "values": {
+    "Length": 180,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.218,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "182",
+  "name": "AAAA123",
+  "values": {
+    "Length": 190,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.228,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "183",
+  "name": "AAAA124",
+  "values": {
+    "Length": 200,
+    "Width": 8,
+    "Thickness": 2.5,
+    "Annual Volume": 6000,
+    "Price": 0.238,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "184",
+  "name": "AAAA125",
+  "values": {
+    "Length": 10,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.034,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "185",
+  "name": "AAAA126",
+  "values": {
+    "Length": 20,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.044,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "186",
+  "name": "AAAA127",
+  "values": {
+    "Length": 30,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.054,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "187",
+  "name": "AAAA128",
+  "values": {
+    "Length": 40,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.064,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "188",
+  "name": "AAAA129",
+  "values": {
+    "Length": 50,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.074,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "189",
+  "name": "AAAA130",
+  "values": {
+    "Length": 60,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.084,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "190",
+  "name": "AAAA131",
+  "values": {
+    "Length": 70,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.094,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "191",
+  "name": "AAAA132",
+  "values": {
+    "Length": 80,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.104,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "192",
+  "name": "AAAA133",
+  "values": {
+    "Length": 90,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.114,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "193",
+  "name": "AAAA134",
+  "values": {
+    "Length": 100,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.124,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "194",
+  "name": "AAAA135",
+  "values": {
+    "Length": 110,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.134,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "195",
+  "name": "AAAA136",
+  "values": {
+    "Length": 120,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.144,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "196",
+  "name": "AAAA137",
+  "values": {
+    "Length": 130,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.154,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "197",
+  "name": "AAAA138",
+  "values": {
+    "Length": 140,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.164,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "198",
+  "name": "AAAA139",
+  "values": {
+    "Length": 150,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.174,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "199",
+  "name": "AAAA140",
+  "values": {
+    "Length": 160,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.184,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "200",
+  "name": "AAAA141",
+  "values": {
+    "Length": 170,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.194,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "201",
+  "name": "AAAA142",
+  "values": {
+    "Length": 180,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.204,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "202",
+  "name": "AAAA143",
+  "values": {
+    "Length": 190,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.214,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "203",
+  "name": "AAAA144",
+  "values": {
+    "Length": 200,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.224,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "204",
+  "name": "AAAA145",
+  "values": {
+    "Length": 210,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.234,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "205",
+  "name": "AAAA146",
+  "values": {
+    "Length": 220,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.244,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "206",
+  "name": "AAAA147",
+  "values": {
+    "Length": 230,
+    "Width": 6.4,
+    "Thickness": 3,
+    "Annual Volume": 6000,
+    "Price": 0.254,
+    "Product Type": "Gasket",
+    "Supplier": "Laird"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "207",
+  "name": "AAAA148",
+  "values": {
+    "Length": 10,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.15,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "208",
+  "name": "AAAA149",
+  "values": {
+    "Length": 20,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.16,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "209",
+  "name": "AAAA150",
+  "values": {
+    "Length": 30,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.17,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "210",
+  "name": "AAAA151",
+  "values": {
+    "Length": 40,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.18,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "211",
+  "name": "AAAA152",
+  "values": {
+    "Length": 50,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.19,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "212",
+  "name": "AAAA153",
+  "values": {
+    "Length": 60,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.2,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "213",
+  "name": "AAAA154",
+  "values": {
+    "Length": 70,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.21,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "214",
+  "name": "AAAA155",
+  "values": {
+    "Length": 80,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.22,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "215",
+  "name": "AAAA156",
+  "values": {
+    "Length": 90,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.23,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "216",
+  "name": "AAAA157",
+  "values": {
+    "Length": 100,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.24,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "217",
+  "name": "AAAA158",
+  "values": {
+    "Length": 110,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.25,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "218",
+  "name": "AAAA159",
+  "values": {
+    "Length": 120,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.26,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "219",
+  "name": "AAAA160",
+  "values": {
+    "Length": 130,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.27,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "220",
+  "name": "AAAA161",
+  "values": {
+    "Length": 140,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.28,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "221",
+  "name": "AAAA162",
+  "values": {
+    "Length": 150,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.29,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "222",
+  "name": "AAAA163",
+  "values": {
+    "Length": 160,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.3,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "223",
+  "name": "AAAA164",
+  "values": {
+    "Length": 170,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.31,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "224",
+  "name": "AAAA165",
+  "values": {
+    "Length": 180,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.32,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "225",
+  "name": "AAAA166",
+  "values": {
+    "Length": 190,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.33,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "226",
+  "name": "AAAA167",
+  "values": {
+    "Length": 200,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.34,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "227",
+  "name": "AAAA168",
+  "values": {
+    "Length": 210,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.35,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "228",
+  "name": "AAAA169",
+  "values": {
+    "Length": 220,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.36,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "229",
+  "name": "AAAA170",
+  "values": {
+    "Length": 230,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.37,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+},
+{
+  "key": "230",
+  "name": "AAAA171",
+  "values": {
+    "Length": 240,
+    "Width": 12,
+    "Thickness": 3.5,
+    "Annual Volume": 6000,
+    "Price": 0.38,
+    "Product Type": "Gasket",
+    "Supplier": "Foxconn"
+  },
+  "app_data": {
+    
+  }
+}
+  ]
+}
+
